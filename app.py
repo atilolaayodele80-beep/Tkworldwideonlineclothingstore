@@ -1848,5 +1848,4 @@ HTML_TEMPLATE = """
                         {% for p in products %}
                         <tr>
                             <td>{{ p['id'] }}</td>
-                            <td><img src="{{ p['image_url'] }}" style="width:50px;height:50px;object-fit:cover;border-radius:8px;"></td>
-                    
+                            <td><img src="{{ p['image_url'] }}" style="width:50px;height:50px;object-fit:cover;border-radius:8px;"></td>    
